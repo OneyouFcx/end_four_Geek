@@ -18,6 +18,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="E:\Git\bin\git.exe" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -91,15 +104,15 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/OneyouFcx/fourGeek.git" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="end.s2.nb" />
       <recent name="end.s2.nb.page_service" />
       <recent name="end.s2.nb.inner" />
       <recent name="end.s2.nb.api" />
       <recent name="end.s2.nb.service" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\four-geek\four-geek-dwh\src\main\resources" />
@@ -377,14 +390,14 @@
       <screen x="1920" y="65" width="1920" height="1040" />
     </state>
     <state x="2410" y="243" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.65.1920.1040@1920.65.1920.1040" timestamp="1584178973195" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1584281285665">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1584285065343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584281285665" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584281750199">
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584285065343" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584285045166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584281750199" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584285045166" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584278194869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -393,14 +406,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584264976820" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584285197611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584285197611" />
     <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584177438997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584177438997" />
-    <state x="749" y="322" key="git4idea.merge.GitPullDialog" timestamp="1584281293517">
+    <state x="749" y="322" key="git4idea.merge.GitPullDialog" timestamp="1584285212771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="749" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584281293517" />
+    <state x="749" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.65.1920.1040@0.0.1920.1040" timestamp="1584285212771" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
