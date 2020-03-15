@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="end.s2.nb.mapper.RateMapper">
+  <resultMap id="BaseResultMap" type="end.s2.nb.entity.Rate">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="min_weight" jdbcType="INTEGER" property="minWeight" />
+    <result column="max_weight" jdbcType="INTEGER" property="maxWeight" />
+    <result column="weight_rate" jdbcType="DECIMAL" property="weightRate" />
+    <result column="cargo_id" jdbcType="INTEGER" property="cargoId" />
+  </resultMap>
+
+ <select id="selectAlls" resultMap="BaseResultMap">
+    select * from rate
+ </select>
+</mapper>
