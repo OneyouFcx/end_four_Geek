@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScans;
 @ComponentScan("end.s2.nb.*")
 @SpringBootApplication
 public class FourGeekWebApplication {
-
+    // user:chh
     public static void main(String[] args) {
         SpringApplication.run(FourGeekWebApplication.class, args);
     }
