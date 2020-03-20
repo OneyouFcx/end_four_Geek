@@ -11,9 +11,9 @@
 
     <groupId>geek-service</groupId>
     <artifactId>end.s2.nb</artifactId>
-<modules>
-    <module>inner-service</module>
-    <module>page-service</module>
-</modules>
+    <modules>
+        <module>inner-service</module>
+        <module>page-service</module>
+    </modules>
 
 </project>

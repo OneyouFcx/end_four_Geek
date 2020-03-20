@@ -10,6 +10,7 @@ import java.util.List;
 public interface BaseMapper<T> {
     /**
      * 查询
+     *
      * @param param
      * @return
      */
@@ -17,6 +18,7 @@ public interface BaseMapper<T> {
 
     /**
      * 更新
+     *
      * @param param
      * @return
      */
@@ -24,6 +26,7 @@ public interface BaseMapper<T> {
 
     /**
      * 新增
+     *
      * @param param
      * @return
      */
@@ -31,6 +34,7 @@ public interface BaseMapper<T> {
 
     /**
      * 删除
+     *
      * @param param
      * @return
      */

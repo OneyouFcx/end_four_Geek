@@ -7,12 +7,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class FourGeekWebApplicationTests {
-    public void test(){
+    public void test() {
         System.out.println();
     }
+
     @Test
     public void contextLoads() {
-        System.out.println(7%7);
+        System.out.println(7 % 7);
     }
 
 }

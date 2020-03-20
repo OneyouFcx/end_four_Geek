@@ -7,6 +7,6 @@ import java.util.List;
  * @Author: Fyh
  * @Date: 2020/3/9 10:28
  */
-public interface IBaseService<V,D> {
+public interface IBaseService<V, D> {
     List<V> queryList(D v);
 }

@@ -29,15 +29,15 @@ public class Test {
                             if (index == 10) {
                                 break;
                             }
-                        }finally {
+                        } finally {
                             //lock.unlock();
                         }
 
                     }
 
-                }catch (Exception e) {
+                } catch (Exception e) {
                     System.out.println("5555");
-                }finally {
+                } finally {
                     lock.unlock();
                 }
             }
@@ -58,9 +58,9 @@ public class Test {
                     for (int i = 0; i < 20; i++) {
                         System.out.println("threadName:" + Thread.currentThread().getName());
                     }
-                }catch (Exception e) {
+                } catch (Exception e) {
                     System.out.println("没有获取到锁");
-                }finally {
+                } finally {
                     lock.unlock();
                 }
             }

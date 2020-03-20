@@ -7,7 +7,7 @@ import java.util.List;
  * @Author: Fyh
  * @Date: 2020/3/9 12:48
  */
-public interface IPageService<V,D> {
+public interface IPageService<V, D> {
 
     List<V> queryList(D dto);
 }
