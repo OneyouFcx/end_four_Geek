@@ -13,6 +13,7 @@ public class FourGeekWebApplication {
     // user:chh
     // user:yhh
     // user:fcx 111
+    // 测试
     public static void main(String[] args) {
         SpringApplication.run(FourGeekWebApplication.class, args);
     }
