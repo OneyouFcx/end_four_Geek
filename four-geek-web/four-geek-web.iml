@@ -25,6 +25,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="inner-service" />
     <orderEntry type="module" module-name="page-service" />
     <orderEntry type="module" module-name="geek-page-api" />
     <orderEntry type="module" module-name="geek-inner-api" />
