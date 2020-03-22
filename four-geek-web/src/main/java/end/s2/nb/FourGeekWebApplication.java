@@ -12,6 +12,7 @@ import org.springframework.context.annotation.ComponentScans;
 public class FourGeekWebApplication {
     // user:chh
     // user:yhh
+    // 测试
     // user:fcx
     public static void main(String[] args) {
         SpringApplication.run(FourGeekWebApplication.class, args);
