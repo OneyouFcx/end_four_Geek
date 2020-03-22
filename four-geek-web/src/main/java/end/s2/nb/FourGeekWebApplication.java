@@ -14,6 +14,7 @@ public class FourGeekWebApplication {
     // user:yhh
     // 测试
     // user:fcx
+    // OKOK
     public static void main(String[] args) {
         SpringApplication.run(FourGeekWebApplication.class, args);
     }
