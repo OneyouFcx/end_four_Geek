@@ -27,11 +27,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="page-service" />
     <orderEntry type="module" module-name="geek-page-api" />
-    <orderEntry type="module" module-name="inner-service" />
-    <orderEntry type="module" module-name="four-geek-dwh" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.mybatis.generator:mybatis-generator-core:1.3.5" level="project" />
-    <orderEntry type="module" module-name="page-service" />
-    <orderEntry type="module" module-name="geek-page-api" />
     <orderEntry type="module" module-name="geek-inner-api" />
     <orderEntry type="module" module-name="inner-service" />
     <orderEntry type="module" module-name="four-geek-dwh" />
