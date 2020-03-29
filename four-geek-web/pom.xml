@@ -15,7 +15,8 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -50,16 +51,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
         </dependency>
-        <!--  <dependency>
+          <dependency>
               <groupId>end.s2.end</groupId>
               <artifactId>four-geek-base</artifactId>
               <version>0.0.1-SNAPSHOT</version>
           </dependency>
-          &lt;!&ndash;<dependency>
+          <!--<dependency>
               <groupId>org.springframework.data</groupId>
               <artifactId>spring-data-redis</artifactId>
               <version>2.1.2.RELEASE</version>
-          </dependency>&ndash;&gt;
+          </dependency>-->
           <dependency>
               <groupId>com.google.guava</groupId>
               <artifactId>guava</artifactId>
@@ -79,12 +80,17 @@
               <groupId>org.aspectj</groupId>
               <artifactId>aspectjweaver</artifactId>
               <version>1.9.2</version>
-          </dependency>-->
+          </dependency>
         <!--redisson-->
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
             <version>3.6.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.12.3</version>
         </dependency>
     </dependencies>
     <build>
