@@ -18,7 +18,7 @@ public class CountTest {
     public static CountDownLatch countDownLatch = new CountDownLatch(2);
     public static AtomicStampedReference<Integer> asr = new AtomicStampedReference<Integer>(0, 1);
     int a = 0;
-
+//sasd
     public static void increase() {
         count++;
         countVolatile++;
