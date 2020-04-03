@@ -1,4 +1,4 @@
-package end.s2.nb.inner;
+package end.s2.nb.rpc.service;
 
 /**
  * @Description:

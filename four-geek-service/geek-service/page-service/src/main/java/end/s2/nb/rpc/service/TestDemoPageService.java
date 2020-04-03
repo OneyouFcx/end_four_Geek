@@ -1,6 +1,5 @@
-package end.s2.nb.page_service;
+package end.s2.nb.rpc.service;
 
-import end.s2.nb.inner.ITestDemoService;
 import end.s2.nb.page.ITestDemoPageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

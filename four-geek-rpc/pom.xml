@@ -3,14 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>end-porject</artifactId>
-        <groupId>four-geek</groupId>
+        <artifactId>end_four_Geek</artifactId>
+        <groupId>end.s2.project</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>four-geek-rpc</groupId>
-    <artifactId>end.s2.nb</artifactId>
-
+    <groupId>end.s2.nb</groupId>
+    <artifactId>four-geek-rpc</artifactId>
+    <packaging>pom</packaging>
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+    </properties>
+    <modules>
+         <module>demo-test-rpc</module>
+    </modules>
 
 </project>

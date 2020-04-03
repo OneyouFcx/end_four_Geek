@@ -1,6 +1,5 @@
-package end.s2.nb.inner_service;
+package end.s2.nb.rpc.service;
 
-import end.s2.nb.inner.IUserService;
 import org.springframework.stereotype.Service;
 
 /**

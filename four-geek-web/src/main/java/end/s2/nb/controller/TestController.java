@@ -1,3 +1,4 @@
+/*
 package end.s2.nb.controller;
 
 
@@ -13,11 +14,13 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+*/
 /**
  * @Description:
  * @Author: Fyh
  * @Date: 2020/3/9 13:16
- */
+ *//*
+
 @RestController
 @RequestMapping("/test")
 
@@ -63,3 +66,4 @@ public class TestController {
         return ATOMIC_INTEGER.incrementAndGet();
     }
 }
+*/

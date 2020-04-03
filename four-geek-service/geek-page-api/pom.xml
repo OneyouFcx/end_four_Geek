@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>end.s2.nb</groupId>
-    <artifactId>page-api</artifactId>
+    <artifactId>geek-page-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>page-api</name>
+    <name>geek-page-api</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

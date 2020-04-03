@@ -8,8 +8,8 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.1.RELEASE</version>
     </parent>
-    <groupId>four-geek</groupId>
-    <artifactId>end-porject</artifactId>
+    <groupId>end.s2.project</groupId>
+    <artifactId>end_four_Geek</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -17,15 +17,22 @@
         <module>four-geek-service</module>
         <module>four-geek-web</module>
         <module>four-geek-rpc</module>
+        <module>four-geek-data</module>
+        <module>four-geek-base</module>
     </modules>
 
     <!-- Spring boot 父引用-->
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <propertie>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+            <java.version>1.8</java.version>
+            <mysql.connector.version>6.0.6</mysql.connector.version>
+            <mybatis.generator.version>1.3.5</mybatis.generator.version>
+            <mybatis.spring.version>1.3.0</mybatis.spring.version>
+            <commons.lang3.version>3.5</commons.lang3.version>
+        </propertie>
     </properties>
-    <dependencies>
-    </dependencies>
     <build>
         <plugins>
             <plugin>

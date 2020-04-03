@@ -1,7 +1,6 @@
-package end.s2.nb.inner_service;
+package end.s2.nb.rpc.service;
 
 import end.s2.nb.entity.Rate;
-import end.s2.nb.inner.ITestDemoService;
 import end.s2.nb.mapper.RateMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

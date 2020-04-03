@@ -8,16 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>geek.service</groupId>
-    <artifactId>four-geek-service</artifactId>
-    <packaging>pom</packaging>
-    <name>four-geek-service</name>
-    <modules>
-        <module>geek-inner-api</module>
-        <module>geek-page-api</module>
-        <module>geek-service</module>
-    </modules>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <artifactId>four-geek-data</artifactId>
+
+
 </project>
