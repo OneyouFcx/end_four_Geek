@@ -8,10 +8,16 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>end.s2.nb</groupId>
     <artifactId>geek-service</artifactId>
     <name>geek-service</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+    </dependencies>
     <modules>
         <module>inner-service</module>
         <module>page-service</module>

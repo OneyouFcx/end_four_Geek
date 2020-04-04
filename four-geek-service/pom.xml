@@ -12,12 +12,18 @@
     <artifactId>four-geek-service</artifactId>
     <packaging>pom</packaging>
     <name>four-geek-service</name>
+    <dependencies>
+
+        <dependency>
+            <groupId>end.s2.end</groupId>
+            <artifactId>four-geek-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
     <modules>
         <module>geek-inner-api</module>
         <module>geek-page-api</module>
         <module>geek-service</module>
     </modules>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
 </project>

@@ -1,3 +1,4 @@
+/*
 package end.s2.nb.redis;
 
 import org.redisson.api.RLock;
@@ -12,11 +13,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+*/
 /**
  * @Description:
  * @Author: Fyh
  * @Date: 2020/3/26 9:53
- */
+ *//*
+
 @RestController
 @RequestMapping("/redis")
 
@@ -74,3 +77,4 @@ public class RedisTestController {
         return msg;
     }
 }
+*/
